@@ -1,10 +1,3 @@
-
-
-from lib2to3.pgen2.pgen import DFAState
-
-from sympy import re
-
-
 def read_line(n, file):
     text= []
     if type(n)!= int:
